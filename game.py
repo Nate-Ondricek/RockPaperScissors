@@ -1,9 +1,11 @@
+import random
+
+
 print("Rock, Paper, Scissors, Shoot!") 
 
 user_choice = input("Choose your weapon 'rock', 'paper', 'scissors':")
 
 print("You chose: ", user_choice)
-print("May the odds be ever in your favor")
 
 
 #Vvalidate the input such that only if it is one of the expected values
@@ -14,8 +16,16 @@ print("May the odds be ever in your favor")
 
 
 if (user_choice == "rock") or (user_choice == "paper") or (user_choice == "scissors"):
-    print("VALID. KEEP GOING")
+    print("May the odds be ever in your favor")
+
 else:
     print("OOPS, invalid input. Please try again.")
     exit()
+
+
+valid_options=["rock","paper","scissors"]
+computer_choice = random.choice(valid_options)
+print("Robot Overlord Choice: ", computer_choice)
+
 print("THIS IS THE END OF OUR GAME. PLEASE PLAY AGAIN.")
+
