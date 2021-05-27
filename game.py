@@ -26,9 +26,16 @@ valid_options=["rock","paper","scissors"]
 computer_choice = random.choice(valid_options)
 print("Robot Overlord Choice: ", computer_choice)
 
-if
-(user_choice == "rock") and (computer_choice == "rock") or (user_choice == "scissors") and (computer_choice == "scissors") or (user_choice == "paper") and (computer_choice == "paper") or
-print("It's a draw!")
+if (computer_choice=="rock") and (user_choice=="rock"):
+    print("It's a draw!")
+elif (user_choice == "scissors") and (computer_choice == "scissors"):
+    print("It's a draw!")
+elif (user_choice == "paper") and (computer_choice == "paper"):
+    print("It's a draw!")
+
+else:
+    print("still working on this!")
+
 
 print("THIS IS THE END OF OUR GAME. PLEASE PLAY AGAIN.")
 
