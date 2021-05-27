@@ -33,9 +33,19 @@ elif (user_choice == "scissors") and (computer_choice == "scissors"):
 elif (user_choice == "paper") and (computer_choice == "paper"):
     print("It's a draw!")
 
-else:
-    print("still working on this!")
+elif(user_choice == "scissors") and (computer_choice == "rock"):
+    print("Robot Overlord wins! Better luck next time.")
+elif(user_choice == "paper") and (computer_choice == "scissors"):
+    print("Robot Overlord wins! Better luck next time.")
+elif(user_choice == "rock") and (computer_choice == "paper"):
+    print("Robot Overlord wins! Better luck next time.")
 
+elif(user_choice == "paper") and (computer_choice == "rock"):
+    print("You win! Take that you filthy Robot!")
+elif(user_choice == "scissors") and (computer_choice == "paper"):
+    print("You win! Take that you filthy Robot!")
+elif(user_choice == "rock") and (computer_choice == "scissors"):
+    print("You win! Take that you filthy Robot!")
 
 print("THIS IS THE END OF OUR GAME. PLEASE PLAY AGAIN.")
 
