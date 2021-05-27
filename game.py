@@ -1,6 +1,5 @@
 import random
 
-
 print("Rock, Paper, Scissors, Shoot!") 
 
 user_choice = input("Choose your weapon 'rock', 'paper', 'scissors':")
@@ -26,6 +25,10 @@ else:
 valid_options=["rock","paper","scissors"]
 computer_choice = random.choice(valid_options)
 print("Robot Overlord Choice: ", computer_choice)
+
+if
+(user_choice == "rock") and (computer_choice == "rock") or (user_choice == "scissors") and (computer_choice == "scissors") or (user_choice == "paper") and (computer_choice == "paper") or
+print("It's a draw!")
 
 print("THIS IS THE END OF OUR GAME. PLEASE PLAY AGAIN.")
 
