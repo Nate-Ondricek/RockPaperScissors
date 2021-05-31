@@ -1,13 +1,7 @@
 # Welcome to Nate's rock-em-sock-em-Paper game!
 
 Please read the below instructions to set up and configure your game.
-
-pip install -r requirements.txt
-
-Tell the user to do the pip install thing
-
-pip install -r requirements.txt
-
+_Please also refer to the requirements.txt file for additional details_
 
 ## Set-up
 
