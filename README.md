@@ -73,4 +73,4 @@ enter
 python game.py
 ```sh
 
- to begin the game. Have fun!
+to begin the game. Have fun!
