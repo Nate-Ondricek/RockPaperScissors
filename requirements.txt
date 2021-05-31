@@ -1,1 +1,6 @@
 python-dotenv
+
+
+
+pip install python-dotenv # note: NOT just "dotenv"
+#Explained in further detail within the README file
