@@ -69,6 +69,6 @@ python my_script.py
 Once your environment is set up, navigate to the code in your command line program of choice and
 enter the below to begin the game. Have fun!
 
-```
-python game.py
 ```sh
+python game.py
+```
