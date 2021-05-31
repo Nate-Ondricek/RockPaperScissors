@@ -67,4 +67,10 @@ python my_script.py
 
 ## Playing the game
 Once your environment is set up, navigate to the code in your command line program of choice and
-enter "python game.py" to begin the game. Have fun!
+enter 
+
+```
+python game.py
+```sh
+
+ to begin the game. Have fun!
