@@ -9,8 +9,10 @@ _Please also refer to the requirements.txt file for additional details_
 Follow the below instructions to set up your python environment for the game:
 _NB - instructions sourced from https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md_ 
 
+```sh
 conda create -n my-game-env python=3.8 # (first time only)
 conda activate my-game-env
+```
 
 ## Customizing player name
 This program allows the user to customize their displayed name within the game for better enjoyment
