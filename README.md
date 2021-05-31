@@ -16,6 +16,7 @@ conda activate my-game-env
 
 ## Customizing player name
 This program allows the user to customize their displayed name within the game for better enjoyment
+
 In order to customize their name the user needs to set up a local .env file. 
 Please follow the instructions below to complete this process:
 
