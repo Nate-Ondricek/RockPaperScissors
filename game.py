@@ -19,10 +19,11 @@ player_name = os.getenv("player_name")
 #wanna be cool? consider giving an option of doing single game or best out of three
 
 
+print("------------------------")
+print("Welcome",player_name,"to my Rock-Paper-Scissors game!") 
+print("------------------------")
 
-print("Rock, Paper, Scissors, Shoot!") 
-
-user_choice = input("Choose your weapon 'rock', 'paper', 'scissors':")
+user_choice = input("Choose your weapon 'rock', 'paper', or 'scissors':")
 
 print("You chose: ", user_choice)
 
@@ -45,7 +46,8 @@ else:
 
 valid_options=["rock","paper","scissors"]
 computer_choice = random.choice(valid_options)
-print("Robot Overlord Choice: ", computer_choice)
+print("Robot Overlord Chose: ", computer_choice)
+print("------------------------")
 
 #Code suggestion of making user_choice==comp_choice attributed to Steven S.
 
@@ -64,11 +66,13 @@ elif(user_choice == "rock") and (computer_choice == "paper"):
 #Player Wins
 
 elif(user_choice == "paper") and (computer_choice == "rock"):
-    print("You win! Take that you filthy Robot!")
+    print("You win! Take that filthy Robot!")
 elif(user_choice == "scissors") and (computer_choice == "paper"):
-    print("You win! Take that you filthy Robot!")
+    print("You win! Take that filthy Robot!")
 elif(user_choice == "rock") and (computer_choice == "scissors"):
-    print("You win! Take that you filthy Robot!")
+    print("You win! Take that filthy Robot!")
 
-print("THIS IS THE END OF OUR GAME. PLEASE PLAY AGAIN.")
+print("------------------------")
+
+print("Thanks for playing. Please play again!")
 
